@@ -1,0 +1,273 @@
+h1, h2 {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+ font-size: 36px; 
+ font-style: normal;
+ font-weight: 550;
+ font-size: 36px;
+  
+}
+
+nav {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ gap: 50px;
+ padding-bottom: 180px;
+}
+
+.nav-link {
+  padding-top: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  padding-top: 35px;
+}
+
+/*.nav-left {
+  padding-top: 15px;
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ gap: 50px;
+ padding-bottom: 180px;
+}
+*/
+
+.logo {
+  font-family: 'Lato', sans-serif;
+  color: #FF5678;
+  letter-spacing: 0.3em;
+  font-size: 30px;
+  padding-right: 350px;  
+}
+
+
+.loginbtn {
+ background-color: #1D1C1C ;
+ color: #FFFFFF ; 
+ border-radius: 50px;
+ border: none;
+ padding-left: 10px;
+ display: flex;
+ flex-direction: row;
+ align-items: baseline;
+ padding: 8px 24px;
+ height: 36px;
+}
+
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.gobtn {
+ background: #FF5678;
+ border-radius: 70px;
+ border: none;
+ width: 62px;
+ height: 62px;
+}
+
+#search {
+ padding: 15px;
+ width: 400px;
+ height: 64px;
+ background: #F6F2EF;
+ border-radius: 16px;
+ border: none;
+ padding-left: 34px;
+}
+
+.searchgobtn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; 
+  padding-top: 60px;
+  
+}
+
+.bm-design {
+  width: 668.07px;
+  height: 534.69px;
+}
+
+.titlessearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heading2 {
+  padding-top: 0px;
+  margin-top: -30px;
+  /*font-weight: 545;* --> how to lower the font weight? without been it too thin*/
+}
+
+.bannercomp {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-bottom: 200px;
+}
+
+
+#illustration {
+  width: 40vw;
+  padding-top: 70px;
+}
+
+hr {
+  border: 0;
+	border-top: 2px solid #1D1C1C;
+}
+
+span {
+  color: #FF5678;
+  text-decoration: none;
+}
+
+.spoffers {
+  padding-top: 50px;
+}
+
+.buy-btn {
+ background: #FF5678;
+ border-radius: 8px;
+ height: 48px;
+ width: 157px;
+ color: #FFFFFF;
+ border: none;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 3px;
+ justify-content: center;
+}
+
+figcaption {
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+ text-align: center;
+
+ color: #917D6E;
+}
+
+#coffeebeans {
+ width: 192px;
+ height: 222px;
+ left: 48px;
+ top: 27px;
+ border-radius: 16px;
+}
+
+.gallery-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #F6F2EF;
+  border-radius: 16px;
+  width: 345px;
+  height: 420px;
+  align-items: center;
+  text-align: center;
+}
+
+.imgspecial-offers {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.special-offers {
+ padding-bottom: 200px; 
+}
+
+
+footer {
+  background: #1D1C1C;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 120px 40px;
+  justify-content: space-around;
+
+}
+
+
+.socialmedia-imgs {
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+}
+
+/*.icon-link {
+  width: 32px;
+  height: 32px;
+}
+
+--> make icons bigger? */
+
+.icon-link {
+ color: white;
+ position: relative;
+ width: 50px;
+ color: #FFFFFF;
+}
+ 
+
+
+    /*Tablets [601px -> 1200px]*/
+@media only screen and (max-width: 1200px){
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  nav {
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #illustration {
+    width: 40vw;
+    padding-top: 70px;
+    position: absolute;
+    left: 54.25%;
+    right: 11.25%;
+    top: 6.53%;
+    bottom: 83.44%;
+  }
+
+  
+  
+}
+
+
+	/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 600px){
+ 
+  
+}
